@@ -1,0 +1,77 @@
+body{
+    color :black;
+    font-family : Raleway;
+    font-weight : 100;
+    font-size : 15px;
+    height : 100%;
+    width : 100%;
+    margin : 0;
+    overflow : hidden;
+}
+
+#content {
+    position : absolute;
+}
+
+body #container img {
+    position : absolute;
+    left : 50px;
+    width : 2px;
+    height : 0px;
+    top : 50%;
+    margin-top : -100px;
+}
+
+body #container #welcome {
+    width : 900px;
+    padding-left : 20px;
+    color : white;
+    font-size : 18pt;
+    position : absolute;
+    top :50%;
+    margin-top : -35px;
+    left : 50px;
+}
+
+body #container #welcome #lastSentence {
+    font-family : 'Raleway';
+    margin : 0;
+    font-weight : 400;
+    font-size : 14pt;
+}
+
+body #container #welcome #firstSentence {
+    font-weight : 500;
+    font-size : 22pt;
+    margin : 0;
+    margin-bottom : 8px;
+    margin-top : 2px;
+}
+
+body #container #welcome #universe {
+    text-transform : uppercase;
+    font-family : 'Raleway';
+    font-weight : 800;
+}
+
+body #container #content {
+    top : 50%;
+    margin-top : -70px;
+    width : 500px;
+    left : 70px;
+}
+
+body #container #content #contentTitle {
+    font-family : Raleway;
+    color : white;
+    opacity : 1;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-size: 26pt;
+}
+
+body #container #content span {
+    font-family: Raleway;
+    font-weight: 800;
+}
+
